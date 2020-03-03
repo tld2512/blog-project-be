@@ -1,4 +1,7 @@
 package com.longdt.repository;
 
-public class ImageBlogRepository {
+import com.longdt.model.image.ImageBlog;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ImageBlogRepository extends JpaRepository<ImageBlog, Long> {
 }
